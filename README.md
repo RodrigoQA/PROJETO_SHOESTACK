@@ -3,6 +3,7 @@
 <br>
 <h2>*Windows</h2>
 - Incluir a pasta 'drivers' na raiz do projeto e nomear o arquivo como 'chromedriver.exe'
+- ou aponte o local do chromedriver.exe na class TestSteps
 <br>
 <h2>*Linux</h2>
 - Incluir a pasta 'drivers' na raiz do projeto e nomear o arquivo como 'chromedriver'
@@ -37,6 +38,18 @@ Plugin's <br>
  <h2> Tags </h2>
  - Alterar a tag a ser executado na classe web.runner <br>
  - A opção 'tags = ("@AddCarrinho")' identifica qual tag sera executada
+ 
+ <h2> Parametros </h2>
+ 
+ O projeto possui alguns parametros entre eles o da pagaina de checkout, é possivel escolher o tamanho e cor do produto 
+ Porem é preciso se atentar, Ao alterar os parametros deve-se alterar tambem os asserts referentes a eles.
+
+<h2> After </h2>
+
+Devido o teste ficar gerando itens no carrinho a medida que é executado,
+foi necessario criar um hook apos a finalização dos testes, sendo assim apos a execução do
+cenario de adicionar item no carrinho a automação limpa a sacola.
+
  
  
  
