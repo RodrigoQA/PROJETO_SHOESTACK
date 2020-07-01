@@ -38,6 +38,18 @@ Plugin's <br>
  - Alterar a tag a ser executado na classe web.runner <br>
  - A opção 'tags = ("@AddCarrinho")' identifica qual tag sera executada
  
+ <h2> Parametros </h2>
+ 
+ O projeto possui alguns parametros entre eles o da pagaina de checkout, é possivel escolher o tamanho e cor do produto 
+ Porem é preciso se atentar, ao alterar os parametro deve-se alterar 
+tambem os os asserts referentes a ele.
+
+<h2> After </h2>
+Foi necessario criar um hook apos a finalização dos teste, devido 
+o teste ficar gerando itens no carrinho, sendo assim apos a execução do
+cenario de add ao carrinho a automação limpa a sacola.
+
+ 
  
  
  
