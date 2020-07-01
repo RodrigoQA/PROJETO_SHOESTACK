@@ -55,7 +55,6 @@ public class PagamentoPage extends BasePage {
     }
 
 
-
     public boolean isVisivelNomeTitular(){
         return  driver.findElement(titularCartao).isDisplayed();
 
