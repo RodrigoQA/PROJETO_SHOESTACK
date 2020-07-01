@@ -3,6 +3,7 @@
 <br>
 <h2>*Windows</h2>
 - Incluir a pasta 'drivers' na raiz do projeto e nomear o arquivo como 'chromedriver.exe'
+- ou aponte o local do chromedriver.exe na class TestSteps
 <br>
 <h2>*Linux</h2>
 - Incluir a pasta 'drivers' na raiz do projeto e nomear o arquivo como 'chromedriver'
