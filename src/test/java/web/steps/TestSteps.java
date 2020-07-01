@@ -1,4 +1,4 @@
-package steps;
+package web.steps;
 
 
 import io.cucumber.java.After;
@@ -9,7 +9,7 @@ import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pages.*;
+import web.pages.*;
 
 import java.util.concurrent.TimeUnit;
 

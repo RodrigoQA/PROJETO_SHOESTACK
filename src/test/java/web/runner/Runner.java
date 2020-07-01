@@ -1,4 +1,4 @@
-package runner;
+package web.runner;
 
 
 
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
          strict = true
         , features = {"src/main/resources/features/"}
         , snippets = CucumberOptions.SnippetType.CAMELCASE
-        , glue = "steps"
+        , glue = "web/steps"
         , monochrome = true
         , tags = ("@AddCarrinho")
        // ,plugin ="pretty"

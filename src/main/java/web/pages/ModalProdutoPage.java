@@ -1,6 +1,6 @@
-package pages;
+package web.pages;
 
-import core.BasePage;
+import web.core.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;

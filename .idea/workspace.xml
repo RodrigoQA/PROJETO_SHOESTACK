@@ -1,136 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97606f10-4ab2-4ae6-bc2c-ff1ae166c45f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="97606f10-4ab2-4ae6-bc2c-ff1ae166c45f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modolo_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bdc7fe650a4170fd3332cdfc4dca51f7507f98b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/core/BaseTes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/core/Constantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/core/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/core/Paramentros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/ModalProdutoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/incluirProdutoNoCarrinho.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/realizarBusca.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/ConsultaTrello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19f149529b2bd71032174e3d2f902a3b73e927fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9655b2a35fae75d92697b79cda62632f93f33e6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9655b2a35fae75d92697b79cda62632f93f33e6e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3c5c35dd7db687159ad58cc5ceb949c89605d3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3c5c35dd7db687159ad58cc5ceb949c89605d3c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadbcd406224ae7186145b817b3122617f129fe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed7ae5a43811cf21d47a6464d9d6be7070fa3f71" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbdff32032ee453b290898a2edb3d7bcb7c43eb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbdff32032ee453b290898a2edb3d7bcb7c43eb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CarrinhoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ModalProdutoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProdutoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/core/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homepage/HomePageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CarrinhoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ModalProdutoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProdutoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/homepage/HomePageTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cptAw8UsaZeKoVO6s8pzEqSn5S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api_services/restAssured/api_real" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="api.util" />
+      <recent name="api" />
+      <recent name="" />
+      <recent name="web" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.HomePageTest.testAdicionarProdutoNoCarrinho_and_RemoverProdutoDoCarrinho">
-    <configuration name="HomePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iterasys" />
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: incluirProdutoNoCarrinho" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/incluirProdutoNoCarrinho.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="yaman" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: incluirProdutoNoCarrinho" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homepage.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: realizarBusca" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/realizarBusca.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="yaman" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: realizarBusca" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaTrello.testFazerConsultarTrello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yaman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ConsultaTrello" />
+      <option name="METHOD_NAME" value="testFazerConsultarTrello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaTrello.testFazerConsultarTrello_NomeEstruturaList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yaman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ConsultaTrello" />
+      <option name="METHOD_NAME" value="testFazerConsultarTrello_NomeEstruturaList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit">
+      <module name="yaman" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="web.runner" />
+      <option name="MAIN_CLASS_NAME" value="web.runner.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testAdicionarProdutoNoCarrinho_RemoverProdutoDoCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iterasys" />
+    <configuration name="features in yaman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yaman" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homepage.*" />
+          <option name="PATTERN" value="features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
-      <option name="METHOD_NAME" value="testAdicionarProdutoNoCarrinho_RemoverProdutoDoCarrinho" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="features" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.testAdicionarProdutoNoCarrinho_and_RemoverProdutoDoCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iterasys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
-      <option name="METHOD_NAME" value="testAdicionarProdutoNoCarrinho_and_RemoverProdutoDoCarrinho" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.testCalcularSomarDosProdutos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iterasys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
-      <option name="METHOD_NAME" value="testCalcularSomarDosProdutos" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.testValidarCarrinhoVazio_ZeroItensNoCarrinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="iterasys" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
-      <option name="METHOD_NAME" value="testValidarCarrinhoVazio_ZeroItensNoCarrinho" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: realizarBusca" />
+      <item itemvalue="Cucumber Java.Feature: incluirProdutoNoCarrinho" />
+      <item itemvalue="JUnit.Runner" />
+      <item itemvalue="JUnit.features in yaman" />
+      <item itemvalue="JUnit.ConsultaTrello.testFazerConsultarTrello" />
+      <item itemvalue="JUnit.ConsultaTrello.testFazerConsultarTrello_NomeEstruturaList" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HomePageTest.testAdicionarProdutoNoCarrinho_and_RemoverProdutoDoCarrinho" />
-        <item itemvalue="JUnit.HomePageTest.testCalcularSomarDosProdutos" />
-        <item itemvalue="JUnit.HomePageTest.testAdicionarProdutoNoCarrinho_RemoverProdutoDoCarrinho" />
-        <item itemvalue="JUnit.HomePageTest.testValidarCarrinhoVazio_ZeroItensNoCarrinho" />
-        <item itemvalue="JUnit.HomePageTest" />
+        <item itemvalue="JUnit.ConsultaTrello.testFazerConsultarTrello_NomeEstruturaList" />
+        <item itemvalue="JUnit.ConsultaTrello.testFazerConsultarTrello" />
+        <item itemvalue="Cucumber Java.Feature: incluirProdutoNoCarrinho" />
+        <item itemvalue="Cucumber Java.Feature: realizarBusca" />
+        <item itemvalue="JUnit.features in yaman" />
       </list>
     </recent_temporary>
   </component>
@@ -147,25 +231,130 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1593636774816">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1593636774816" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593613355061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593613355061" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593578045586">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593578045586" />
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593613350096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593613350096" />
+    <state x="369" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593633741104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="369" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593633741104" />
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1593633746280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1593633746280" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593561133061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593561133061" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1593633317706">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593633317706" />
+    <state width="1323" height="139" key="GridCell.Tab.0.bottom" timestamp="1593639954590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
+    <state width="1323" height="139" key="GridCell.Tab.0.center" timestamp="1593639954590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
+    <state width="1323" height="139" key="GridCell.Tab.0.left" timestamp="1593639954590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
+    <state width="1323" height="139" key="GridCell.Tab.0.right" timestamp="1593639954590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
+    <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1593631057170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
+    <state width="1323" height="250" key="GridCell.Tab.1.center" timestamp="1593631057170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
+    <state width="1323" height="250" key="GridCell.Tab.1.left" timestamp="1593631057170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
+    <state width="1323" height="250" key="GridCell.Tab.1.right" timestamp="1593631057170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
+    <state width="1323" height="250" key="GridCell.Tab.2.bottom" timestamp="1593631057171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
+    <state width="1323" height="250" key="GridCell.Tab.2.center" timestamp="1593631057171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
+    <state width="1323" height="250" key="GridCell.Tab.2.left" timestamp="1593631057170">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
+    <state width="1323" height="250" key="GridCell.Tab.2.right" timestamp="1593631057171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593636824903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593636824903" />
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593589113588">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1593589113588" />
+    <state x="413" y="114" key="extract.method.dialog" timestamp="1593590895095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1593590895095" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593638623933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593638623933" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/ProdutoPage.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/homepage/HomePageTest.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/homepage/HomePageTest.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="58" />
+          <url>file://$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/modolo_web$Feature__visualiza_produtos.ic" NAME="Feature: visualiza_produtos Coverage Results" MODIFIED="1593401750422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>

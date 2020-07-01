@@ -3,13 +3,23 @@
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Q
 !src/main/java/pages/HomePage.java,9\6\9655b2a35fae75d92697b79cda62632f93f33e6e
-X
-(src/test/java/homepage/HomePageTest.java,e\d\ed7ae5a43811cf21d47a6464d9d6be7070fa3f71
-Q
-!src/test/java/base/BaseTests.java,1\9\19f149529b2bd71032174e3d2f902a3b73e927fc
 Y
 )src/main/java/pages/ModalProdutoPage.java,e\f\efbdff32032ee453b290898a2edb3d7bcb7c43eb
-T
-$src/main/java/pages/ProdutoPage.java,b\d\bdadbcd406224ae7186145b817b3122617f129fe
 U
 %src/main/java/pages/CarrinhoPage.java,a\3\a3c5c35dd7db687159ad58cc5ceb949c89605d3c
+R
+"src/main/java/pages/LoginPage.java,4\b\4bdc7fe650a4170fd3332cdfc4dca51f7507f98b
+Q
+!src/main/java/core/BaseTests.java,a\8\a89741cea15cdf006580efab137b463a80f124b5
+S
+#src/main/java/core/Paramentros.java,8\1\81c516e9d6faa17b7264bc64424eef67a30ea821
+P
+ src/main/java/core/BasePage.java,4\0\40c77e4be4b39707fc0ebb0ad7d95fb4b95311df
+V
+&src/main/java/pages/PagamentoPage.java,e\c\ecfb6ea7217b99bbb58b920bf01e848e73113fcd
+R
+"src/test/java/steps/TestSteps.java,4\8\48ead982273d929bb83ffae0cc9a0281fa17689a
+P
+ src/test/java/runner/Runner.java,0\0\00619e8ed3c478baf77146b160d72321ab85b552
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

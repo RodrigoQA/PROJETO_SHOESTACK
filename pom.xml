@@ -21,18 +21,21 @@
     </build>
 
     <properties>
-    <junit.version>4.12</junit.version>
-    <hamcrest.version>2.2</hamcrest.version>
-    <selenium-java.version>3.141.59</selenium-java.version>
-</properties>
+        <junit.version>4.12</junit.version>
+        <hamcrest.version>2.2</hamcrest.version>
+        <selenium-java.version>3.141.59</selenium-java.version>
+        <cucumber.version>6.1.2</cucumber.version>
+        <rest-assured.version>3.1.1</rest-assured.version>
+        <hamcrest.version>2.2</hamcrest.version>
+    </properties>
 
 
     <dependencies>
+
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <!--suppress UnresolvedMavenProperty -->
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
@@ -56,7 +59,23 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest-assured.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>${hamcrest.version}</version>
 
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -70,6 +89,25 @@
             <version>1.0.0-M4</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+        </dependency>
+
 
     </dependencies>
 
