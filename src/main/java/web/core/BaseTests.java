@@ -1,4 +1,6 @@
-package base;
+package core;
+
+
 
 import org.junit.After;
 import org.junit.Before;
@@ -22,10 +24,10 @@ private static WebDriver driver;
     }
     @Before
     public void carregarPaginaInicial(){
+        driver.get("https://www.shoestock.com.br/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
-        driver.get("https://marcelodebittencourt.com/demoprestashop/");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        //driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
         homePage = new HomePage(driver);
     }
 
