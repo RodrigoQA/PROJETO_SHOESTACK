@@ -1,5 +1,5 @@
 # CONFIGURAÇÃO DO CHROMEDRIVER #
-<h2>Configurar o caminho do driver a ser executado</h2>
+<h3>Configurar o caminho do driver a ser executado</h3>
 <br>
 <h2>*Windows</h2>
 - Incluir a pasta 'drivers' na raiz do projeto e nomear o arquivo como 'chromedriver.exe'
