@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         , glue = "web/steps"
         , monochrome = true
         , tags = ("@AddCarrinho")
-       // ,plugin ="pretty"
+       // plugin ="pretty"
         )
 
 public class Runner{

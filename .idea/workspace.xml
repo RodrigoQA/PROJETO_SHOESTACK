@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97606f10-4ab2-4ae6-bc2c-ff1ae166c45f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modolo_web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bdc7fe650a4170fd3332cdfc4dca51f7507f98b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/core/BaseTes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/core/Constantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/core/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/core/Paramentros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/ModalProdutoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/incluirProdutoNoCarrinho.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/realizarBusca.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/ConsultaTrello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19f149529b2bd71032174e3d2f902a3b73e927fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9655b2a35fae75d92697b79cda62632f93f33e6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9655b2a35fae75d92697b79cda62632f93f33e6e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3c5c35dd7db687159ad58cc5ceb949c89605d3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a3c5c35dd7db687159ad58cc5ceb949c89605d3c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdadbcd406224ae7186145b817b3122617f129fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed7ae5a43811cf21d47a6464d9d6be7070fa3f71" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbdff32032ee453b290898a2edb3d7bcb7c43eb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbdff32032ee453b290898a2edb3d7bcb7c43eb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CarrinhoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ModalProdutoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ProdutoPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/core/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homepage/HomePageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CarrinhoPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ModalProdutoPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProdutoPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/homepage/HomePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,22 +232,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593633317706" />
-    <state width="1323" height="139" key="GridCell.Tab.0.bottom" timestamp="1593639954590">
+    <state width="1323" height="139" key="GridCell.Tab.0.bottom" timestamp="1593640021032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
-    <state width="1323" height="139" key="GridCell.Tab.0.center" timestamp="1593639954590">
+    <state width="1323" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
+    <state width="1323" height="139" key="GridCell.Tab.0.center" timestamp="1593640021032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
-    <state width="1323" height="139" key="GridCell.Tab.0.left" timestamp="1593639954590">
+    <state width="1323" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
+    <state width="1323" height="139" key="GridCell.Tab.0.left" timestamp="1593640021031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
-    <state width="1323" height="139" key="GridCell.Tab.0.right" timestamp="1593639954590">
+    <state width="1323" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593640021031" />
+    <state width="1323" height="139" key="GridCell.Tab.0.right" timestamp="1593640021032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593639954590" />
+    <state width="1323" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
     <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1593631057170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
