@@ -41,13 +41,13 @@ Plugin's <br>
  <h2> Parametros </h2>
  
  O projeto possui alguns parametros entre eles o da pagaina de checkout, é possivel escolher o tamanho e cor do produto 
- Porem é preciso se atentar, ao alterar os parametro deve-se alterar 
-tambem os os asserts referentes a ele.
+ Porem é preciso se atentar, Ao alterar os parametros deve-se alterar tambem os asserts referentes a eles.
 
 <h2> After </h2>
-Foi necessario criar um hook apos a finalização dos teste, devido 
-o teste ficar gerando itens no carrinho, sendo assim apos a execução do
-cenario de add ao carrinho a automação limpa a sacola.
+
+Devido o teste ficar gerando itens no carrinho a medida que é executado,
+foi necessario criar um hook apos a finalização dos testes, sendo assim apos a execução do
+cenario de adicionar item no carrinho a automação limpa a sacola.
 
  
  
