@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97606f10-4ab2-4ae6-bc2c-ff1ae166c45f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/addProdutoCarrinho.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/realizarBusca.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/api/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/core/BaseTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/ModalProdutoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/extent-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/incluirProdutoNoCarrinho.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/realizarBusca.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/ConsultaTrello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ConsultaTrello.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/BaseTes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/incluirProdutoNoCarrinho.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/realizarBusca.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/core/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/core/BaseTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/core/Paramentros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/CarrinhoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/CarrinhoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/ModalProdutoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/PagamentoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/PagamentoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/ConsultaTrello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/ConsultaTrello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/runner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/runner/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/steps/TestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/steps/TestSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +65,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../api_services/restAssured/api_real" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\test" />
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources" />
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources\configs" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="api.util" />
       <recent name="api" />
       <recent name="" />
       <recent name="web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\test" />
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\test\java\resources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pages" />
@@ -208,6 +250,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593613355061" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593737448757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1593737448757" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1593578045586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,62 +274,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593561133061" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1593633317706">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1593749150020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593633317706" />
-    <state width="1323" height="139" key="GridCell.Tab.0.bottom" timestamp="1593640021032">
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593749150020" />
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1593800659119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
-    <state width="1323" height="139" key="GridCell.Tab.0.center" timestamp="1593640021032">
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593800659119" />
+    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1593800659119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
-    <state width="1323" height="139" key="GridCell.Tab.0.left" timestamp="1593640021031">
+    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593800659119" />
+    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1593800659119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593640021031" />
-    <state width="1323" height="139" key="GridCell.Tab.0.right" timestamp="1593640021032">
+    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593800659119" />
+    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1593800659119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593640021032" />
-    <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1593631057170">
+    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593800659119" />
+    <state width="1323" height="263" key="GridCell.Tab.1.bottom" timestamp="1593797629819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
-    <state width="1323" height="250" key="GridCell.Tab.1.center" timestamp="1593631057170">
+    <state width="1323" height="263" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593797629819" />
+    <state width="1323" height="263" key="GridCell.Tab.1.center" timestamp="1593797629818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
-    <state width="1323" height="250" key="GridCell.Tab.1.left" timestamp="1593631057170">
+    <state width="1323" height="263" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593797629818" />
+    <state width="1323" height="263" key="GridCell.Tab.1.left" timestamp="1593797629818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
-    <state width="1323" height="250" key="GridCell.Tab.1.right" timestamp="1593631057170">
+    <state width="1323" height="263" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593797629818" />
+    <state width="1323" height="263" key="GridCell.Tab.1.right" timestamp="1593797629818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
-    <state width="1323" height="250" key="GridCell.Tab.2.bottom" timestamp="1593631057171">
+    <state width="1323" height="263" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593797629818" />
+    <state width="1323" height="263" key="GridCell.Tab.2.bottom" timestamp="1593797629819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
-    <state width="1323" height="250" key="GridCell.Tab.2.center" timestamp="1593631057171">
+    <state width="1323" height="263" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593797629819" />
+    <state width="1323" height="263" key="GridCell.Tab.2.center" timestamp="1593797629819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
-    <state width="1323" height="250" key="GridCell.Tab.2.left" timestamp="1593631057170">
+    <state width="1323" height="263" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1593797629819" />
+    <state width="1323" height="263" key="GridCell.Tab.2.left" timestamp="1593797629819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1593631057170" />
-    <state width="1323" height="250" key="GridCell.Tab.2.right" timestamp="1593631057171">
+    <state width="1323" height="263" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1593797629819" />
+    <state width="1323" height="263" key="GridCell.Tab.2.right" timestamp="1593797629819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1593631057171" />
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593636824903">
+    <state width="1323" height="263" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1593797629819" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1593746692391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593636824903" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593746692391" />
     <state x="252" y="93" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593589113588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -292,18 +338,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1593590895095" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593638623933">
+    <state x="475" y="223" key="scopes" timestamp="1593790176885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593638623933" />
+    <state x="475" y="223" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1593790176885" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593782237845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593782237845" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/src/main/java/web/pages/CheckoutPage.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,10 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import web.core.DriverFactory;
+
+import static web.core.DriverFactory.*;
 
 public class HomePage extends BasePage {
-    private WebDriver driver;
-    LoginPage login = new LoginPage(driver);
+     WebDriver driver;
 
 
     private By btnEntrar = By.xpath("//*[contains(text(),'Entrar')]"); //yaman
@@ -23,45 +25,42 @@ public class HomePage extends BasePage {
         this.driver = driver;
     }
 
-    public void carregarPaginaInicial() {
-        driver.get("https://www.shoestock.com.br/");
 
-    }
     public boolean isLogado() {
-        return !"Entrar".contentEquals(driver.findElement(btnEntrar).getText());
+        return !"Entrar".contentEquals(getDriver().findElement(btnEntrar).getText());
     }
     public boolean notLogado() {
-        driver.findElement(btnEntrar).getText();
-        return "ENTRAR".contentEquals(driver.findElement(btnEntrar).getText());
+        getDriver().findElement(btnEntrar).getText();
+        return "ENTRAR".contentEquals(getDriver().findElement(btnEntrar).getText());
 
     }
 
 
     public void pesquisarPorItem(String produto)  {
         esperarElemento();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(".input-label #search-input")));
-        driver.findElement(barraDePesquisa).sendKeys(produto);
-        driver.findElement(buscar).click();
+        getDriver().findElement(barraDePesquisa).sendKeys(produto);
+        getDriver().findElement(buscar).click();
 
     }
 
       public String qtsResutadoDaPesquisa() {
-        driver.findElement(descricaoProduto).getText();
-        String resut = driver.findElement(qtsResultado).getText();
+          getDriver().findElement(descricaoProduto).getText();
+        String resut = getDriver().findElement(qtsResultado).getText();
         resut = resut.replace("Exibindo: 1 - 1 de","");
         return resut;
 
     }
     public boolean descResutadoDaPesquisa(String descricao) {
-        String desc = driver.findElement(descricaoProduto).getText();
+        String desc = getDriver().findElement(descricaoProduto).getText();
         System.out.println(desc.toUpperCase());
         return desc == descricao;
     }
 
 
     public void clicarProdutoByNome(String produto) {
-        driver.findElement(By.xpath("//span[contains(text(),'"+produto+"')]")).click();
+        getDriver().findElement(By.xpath("//span[contains(text(),'"+produto+"')]")).click();
     }
 }
 

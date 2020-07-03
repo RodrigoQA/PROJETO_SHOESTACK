@@ -1,11 +1,11 @@
 package api;
 
-import api.core.BaseTes;
+import api.core.BaseTest;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
-public class ConsultaTrello extends BaseTes {
+public class ConsultaTrello extends BaseTest {
 
     @Test
     public void testFazerConsultarTrello_NomeEstruturaList(){

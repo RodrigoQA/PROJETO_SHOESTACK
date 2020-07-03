@@ -3,6 +3,9 @@ package web.pages;
 import web.core.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import web.core.DriverFactory;
+
+import static web.core.DriverFactory.getDriver;
 
 public class PagamentoPage extends BasePage {
     private WebDriver driver;
@@ -28,51 +31,51 @@ public class PagamentoPage extends BasePage {
 
     public  String nomeProduto() {
      esperarElemento();
-     return driver.findElement(descriscaoProduto).getText();
+     return getDriver().findElement(descriscaoProduto).getText();
 
     }
     public String valorProduto() {
-        return driver.findElement(valorProduto).getText();
+        return getDriver().findElement(valorProduto).getText();
 
     }
 
     public String corProduto(){
-       return driver.findElement(cor).getText();
+       return getDriver().findElement(cor).getText();
     }
 
     public String tamanhoProduto(){
-        return  driver.findElement(tamanhoProduto).getText();
+        return  getDriver().findElement(tamanhoProduto).getText();
 
     }
 
     public String quantidadeProduto(){
-     return  driver.findElement(qts).getAttribute("value");
+     return  getDriver().findElement(qts).getAttribute("value");
 
     }
     public boolean isVisivelCartaoCredito(){
-       return driver.findElement(numberCartao).isDisplayed();
+       return getDriver().findElement(numberCartao).isDisplayed();
 
     }
 
 
     public boolean isVisivelNomeTitular(){
-        return  driver.findElement(titularCartao).isDisplayed();
+        return  getDriver().findElement(titularCartao).isDisplayed();
 
     }
     public boolean isVisivelValidadeMes(){
-        return  driver.findElement(validadeMes).isDisplayed();
+        return  getDriver().findElement(validadeMes).isDisplayed();
 
     }
     public boolean isVisivelValidadeAno(){
-        return  driver.findElement(validadeAno).isDisplayed();
+        return  getDriver().findElement(validadeAno).isDisplayed();
 
     }
     public boolean isVisivelCodSeguranca(){
-        return  driver.findElement(codCartao).isDisplayed();
+        return  getDriver().findElement(codCartao).isDisplayed();
 
     }
     public boolean isVisivelNParcelas(){
-        return  driver.findElement(nParcelas).isDisplayed();
+        return  getDriver().findElement(nParcelas).isDisplayed();
 
     }
 

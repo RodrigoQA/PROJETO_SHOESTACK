@@ -1,86 +1,78 @@
 package web.steps;
 
-
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
-import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Quando;
+import api.core.BaseTest;
+import cucumber.api.java.After;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import web.core.DriverFactory;
 import web.pages.*;
 
-import java.util.concurrent.TimeUnit;
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class TestSteps {
+
     private static WebDriver driver;
     private HomePage homePage = new HomePage(driver);
     private LoginPage login = new LoginPage(driver);
-    private ModalProdutoPage modal = new ModalProdutoPage(driver);
-    private CarrinhoPage carrinho = new CarrinhoPage(driver);
+    private CheckoutPage modal = new CheckoutPage(driver);
+    private CarrinhoPage carrinho = new CarrinhoPage();
     private PagamentoPage pagamento = new PagamentoPage(driver);
-    @Before
-    public static void inicializar() {
-        System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver\\83\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    }
-    @Dado("que estou na paginal inicial do site shoestok")
-    public void que_estou_na_paginal_inicial_do_site_shoestok() {
-        homePage.carregarPaginaInicial();
-    }
-    @Quando("nao estou logado")
-    public void nao_estou_logado() {
-         assertTrue(homePage.notLogado());
-    }
-    @E("faço uma pesquiso pelo produto {string}")
-    public void faço_uma_pesquiso_pelo_produto(String produto) {
-        homePage.pesquisarPorItem(produto);
+    private BaseTest base = new BaseTest();
+
+
+    @Given("^que estou na paginal inicial do site shoestok$")
+    public void queEstouNaPaginalInicialDoSiteShoestok() throws Throwable {
+        DriverFactory.getDriver().get("https://www.shoestock.com.br/");
+
     }
 
-    @Entao("o resultado da pesquisa trara {int} item")
-    public void o_resultado_da_pesquisa_trara_item(Integer int1) {
-       // assertEquals(" 1 resultado",homePage.qtsResutadoDaPesquisa());
+    @When("^estou logado$")
+    public void estouLogado() throws Throwable {
+        login.fazerLogin();
+        assertTrue(homePage.isLogado());
+    }
+    @Given("^nao estou logado$")
+        public void naoEstouLogado() throws Throwable {
+        assertTrue(homePage.notLogado());
+    }
+
+    @Then("^faco uma pesquiso pelo produto \"([^\"]*)\"$")
+    public void facoUmaPesquisoPeloProduto(String produto) throws Throwable {
+        homePage.pesquisarPorItem(produto);
+    }
+    @Then("^o resultado da pesquisa trara (\\d+) item$")
+    public void oResultadoDaPesquisaTraraItem(int arg1) throws Throwable {
+        // assertEquals(" 1 resultado",homePage.qtsResutadoDaPesquisa());
         homePage.descResutadoDaPesquisa("Mocassim Couro Shoestock Gravata Masculino".toUpperCase());
         System.out.println(homePage.qtsResutadoDaPesquisa());
 
     }
 
-    // fluxo adicionar item no carrinho
-    @Quando("estou logado")
-    public void estou_logado() throws InterruptedException {
-        login.fazerLogin();
-        assertTrue(homePage.isLogado());
-    }
-
-    @E("clico no produto apresentado")
-    public void clico_no_produto_apresentado() {
+    @Given("^clico no produto apresentado$")
+    public void clicoNoProdutoApresentado() throws Throwable {
         homePage.clicarProdutoByNome("Mocassim Couro Shoestock Gravata Masculino");
     }
 
-    @E("seleciono a cor {string} e {string} do produto")
-    public void seleciono_a_cor_e_do_produto(String string, String string2) {
-        modal.selecionarCor("Caramelo");
-        modal.selecionarTamanho(40);
+    @Given("^seleciono a cor \"([^\"]*)\" e \"([^\"]*)\" do produto$")
+    public void selecionoACorEDoProduto(String cor, int tam) throws Throwable {
+        modal.selecionarCor(cor);
+        modal.selecionarTamanho(tam);
         modal.obterPrecoProdutoModal();
-
-
     }
 
-    @E("clico no botao comprar")
-    public void clico_no_botao_comprar() throws InterruptedException {
+    @Given("^clico no botao comprar$")
+    public void clicoNoBotaoComprar() throws Throwable {
         modal.clickComprar();
         Thread.sleep(3000);
 
     }
 
-    @Entao("valido as informacoes da pagina do carrinho")
-    public void valido_as_informacoes_da_pagina_do_carrinho() throws InterruptedException {
-    //validacoes do carrinho
+    @Then("^valido as informacoes da pagina do carrinho$")
+    public void validoAsInformacoesDaPaginaDoCarrinho() throws Throwable {
+        //validacoes do carrinho
         assertEquals("Mocassim Couro Shoestock Gravata Masculino".toUpperCase(),carrinho.obterNomeProduto().toUpperCase());
         assertEquals("Tamanho: 40",carrinho.obterTamanhoProduto());
         assertEquals("1",carrinho.obterQuantidadeProduto());
@@ -90,14 +82,13 @@ public class TestSteps {
         assertEquals("R$ 114,90",carrinho.vlrSubTotalProdutos());
     }
 
-    @Entao("clico no botao continuar")
-    public void clico_no_botao_continuar() {
+    @Then("^clico no botao continuar$")
+    public void clicoNoBotaoContinuar() throws Throwable {
         carrinho.continuar();
-
     }
 
-    @Entao("valido as informacoes da pagina de pagamento")
-    public void valido_as_informacoes_da_pagina_de_pagamento() {
+    @Then("^valido as informacoes da pagina de pagamento$")
+    public void validoAsInformacoesDaPaginaDePagamento() throws Throwable {
         //validacoes pagamento
         assertEquals("Mocassim Couro Shoestock Gravata Masculino",pagamento.nomeProduto());
         assertEquals("Tamanho: 40",pagamento.tamanhoProduto());
@@ -112,11 +103,8 @@ public class TestSteps {
         carrinho.limparCarrinho();
 
     }
-
-
     @After
     public static void finalizar() {
-        driver.quit();
+        DriverFactory.killDriver();
     }
-
 }

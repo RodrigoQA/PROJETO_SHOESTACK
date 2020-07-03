@@ -9,20 +9,22 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class BasePage extends BaseTests{
-    WebDriver driver;
+import static web.core.DriverFactory.getDriver;
+
+public class BasePage {
+   private WebDriver driver;
 
     public void visibilityOfElementLocatedFluentWait(String css){
-        FluentWait Wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(5))
+        FluentWait Wait = new FluentWait(getDriver()).withTimeout(Duration.ofSeconds(5))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
         Wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(css)));
 
 
     }
-    public void visibilityOfElementLocatedWait(String elemento) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(elemento)));
+    public void visibilityOfElementLocatedWait(String xpath) {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(xpath)));
     }
     public void esperarElemento(){
         try {
@@ -32,7 +34,7 @@ public class BasePage extends BaseTests{
         }
     }
     public boolean elementoEstaVisivel(String byId) {
-        FluentWait Wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(8))
+        FluentWait Wait = new FluentWait(getDriver()).withTimeout(Duration.ofSeconds(8))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
         Wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(byId)));

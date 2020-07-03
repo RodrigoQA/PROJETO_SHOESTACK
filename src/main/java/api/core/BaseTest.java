@@ -1,13 +1,15 @@
 package api.core;
 
+
+import cucumber.api.java.Before;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import org.hamcrest.Matchers;
-import org.junit.BeforeClass;
 
-public class BaseTes implements Constantes {
-    @BeforeClass
+
+public class BaseTest implements Constantes {
+    @Before
     public static void setup(){
         System.out.println("Before setup...");
         RestAssured.baseURI = APP_BASE_URL;

@@ -7,10 +7,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import web.core.DriverFactory;
 
 import java.time.Duration;
 
-public class ModalProdutoPage extends BasePage {
+import static web.core.DriverFactory.getDriver;
+
+public class CheckoutPage extends BasePage {
     private WebDriver driver;
 
 
@@ -21,44 +24,45 @@ public class ModalProdutoPage extends BasePage {
     private By corAzul = By.xpath("//*[@class='ns-color ns-color-bg-azul 44']");
     private By corCaramelo = By.xpath("//*[@class='ns-color ns-color-bg-caramelo 44']");
 
-    public ModalProdutoPage(WebDriver driver) {
+    public CheckoutPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public String validarMensagemProdutoAdicionado() {
-        FluentWait Wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(5))
-                .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(NoSuchElementException.class);
+        FluentWait Wait = new FluentWait(getDriver());
+        Wait.withTimeout(Duration.ofSeconds(5));
+        Wait.pollingEvery(Duration.ofSeconds(1));
+        Wait.ignoring(NoSuchElementException.class);
         Wait.until(ExpectedConditions.visibilityOfElementLocated(mensagemProdutoAdicionado));
-        return driver.findElement(mensagemProdutoAdicionado).getText();
+        return getDriver().findElement(mensagemProdutoAdicionado).getText();
     }
 
     public String obterPrecoProdutoModal(){
         esperarElemento();
-        return driver.findElement(getPreco).getText();
+        return getDriver().findElement(getPreco).getText();
 
 
     }
-    public void selecionarCor(String cor){
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+    public void selecionarCor(String color){
+        WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*[@class='ns-color ns-color-bg-azul 44']")));
-        if (cor == "Azul"){
-            driver.findElement(corAzul).click();
-        }else if (cor =="Caramelo"){
-            driver.findElement(corCaramelo).click();
+        if (color.contains("Azul")){
+            getDriver().findElement(corAzul).click();
+        }else if (color.contains("Caramelo")){
+            getDriver().findElement(corCaramelo).click();
         }
     }
 
     public String obterTamanhoProduto(){
-        return driver.findElements(listaValoresInformados).get(0).getText();
+        return getDriver().findElements(listaValoresInformados).get(0).getText();
     }
     public String obterCorProduto(){
-        return driver.findElements(listaValoresInformados).get(1).getText();
+        return getDriver().findElements(listaValoresInformados).get(1).getText();
     }
 
     public void clickComprar() throws InterruptedException {
        Thread.sleep(2000);
-        driver.findElement(comprar).click();
+        getDriver().findElement(comprar).click();
 
     }
 
@@ -82,6 +86,6 @@ public class ModalProdutoPage extends BasePage {
         else if(number == 44) {
         number = 8;
        }
-        driver.findElement(By.xpath("//*[@id='buy-box']/section[2]/div/ul/li["+number+"]/a")).click();
+        getDriver().findElement(By.xpath("//*[@id='buy-box']/section[2]/div/ul/li["+number+"]/a")).click();
 }
 }

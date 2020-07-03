@@ -2,6 +2,9 @@ package web.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import web.core.DriverFactory;
+
+import static web.core.DriverFactory.getDriver;
 
 public class LoginPage {
     private WebDriver driver;
@@ -21,11 +24,11 @@ public class LoginPage {
 
     public void fazerLogin() throws InterruptedException {
         Thread.sleep(2000);
-        driver.findElement(btnEntrar).click();
-        driver.findElement(getlogin).click();
-        driver.findElement(getEmail).sendKeys("quality.assurance@test.com");
-        driver.findElement(getPassword).sendKeys("123psw@");
-        driver.findElement(acessarConta).click();
+        getDriver().findElement(btnEntrar).click();
+        getDriver().findElement(getlogin).click();
+        getDriver().findElement(getEmail).sendKeys("quality.assurance@test.com");
+        getDriver().findElement(getPassword).sendKeys("123psw@");
+        getDriver().findElement(acessarConta).click();
 
     }
 }
