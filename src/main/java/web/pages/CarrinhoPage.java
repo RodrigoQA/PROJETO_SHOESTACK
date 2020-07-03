@@ -9,8 +9,8 @@ public class CarrinhoPage extends BasePage {
     private WebDriver driver;
 
     private By nomeProduto = By.cssSelector(".product-details__info h3");
-    private By tamanhoProduto = By.xpath("//p[contains(@class,'custom__text')][1]");
-    private By corProduto = By.xpath("//p[contains(@class,'custom__text')][2]");
+    private By tamanhoProduto = By.xpath("//p[@class='custom__text'][contains(.,'Tamanho:')]");
+    private By corProduto = By.xpath("//p[@class='custom__text'][contains(.,'Cor:')]");
     private By removerProdutoList = By.xpath("//*[@class='remove-from-cart']");
     private By vlrTotalProduto =  By.xpath("//div[contains(@qa-auto,'cart-price')]");
     private By subTotal = By.xpath("/html/body/div[1]/div[2]/div[3]/div[1]/ul/li[1]/div[2]/div[1]");
