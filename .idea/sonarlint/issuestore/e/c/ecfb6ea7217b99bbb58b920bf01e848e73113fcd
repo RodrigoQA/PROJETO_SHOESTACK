@@ -1,22 +1,0 @@
-
-p
-java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ8î¸èÚ°.
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÔñÒÉ°.
-\
-java:S1128"FRemove this unused import 'org.openqa.selenium.support.ui.FluentWait'.(Æ÷·Ü
-P
-java:S2387"."driver" is the name of a field in "BasePage".(š…ŒÅøÿÿÿÿ8û›ÄÚ°.
-J
-java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ
-f
-java:S1128
-"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8î¸èÚ°.
-]
-java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8ÔñÒÉ°.
-X
-java:S1128"=Remove this unused import 'java.util.NoSuchElementException'.(®“ÿéúÿÿÿÿ
-d
-java:S1128	"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(´—âÛøÿÿÿÿ8Ë½ÑÉ°.
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÔñÒÉ°.
