@@ -19,7 +19,7 @@ public class CarrinhoPage extends PageObject {
     private By continuar = By.cssSelector(".btn.btn--primary.btn--block");
     private By sacola = By.cssSelector(".cart-count-badge");
     private By remover = By.cssSelector(".remove-icon");
-    private By home = By.cssSelector("img.logo");
+    private By homepage = By.cssSelector("img.logo");
     private By desconto = By.xpath("//div[@qa-auto='cart-discount']");
 
 
@@ -70,7 +70,7 @@ public class CarrinhoPage extends PageObject {
         getDriver().findElement(continuar).click();
     }
      public void limparCarrinho(){
-        getDriver().findElement(home).click();
+        getDriver().findElement(homepage).click();
         visibilityOfElementLocatedFluentWait(".cart-count-badge");
         getDriver().findElement(sacola).click();
         getDriver().findElement(remover).click();
