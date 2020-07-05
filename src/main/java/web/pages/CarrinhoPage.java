@@ -75,5 +75,5 @@ public class CarrinhoPage extends PageObject {
         getDriver().findElement(sacola).click();
         getDriver().findElement(remover).click();
 
-    }
+     }
 }
