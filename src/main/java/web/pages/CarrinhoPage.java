@@ -1,14 +1,11 @@
 package web.pages;
 
-import org.openqa.selenium.WebDriver;
-import web.core.BasePage;
 import org.openqa.selenium.By;
-import web.core.DriverFactory;
-
+import org.openqa.selenium.WebDriver;
 import static web.core.DriverFactory.getDriver;
 
 
-public class CarrinhoPage extends BasePage {
+public class CarrinhoPage extends PageObject {
 
     private WebDriver driver;
 

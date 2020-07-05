@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         ,glue = {"web/steps/"}
         ,monochrome = true
         ,plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"}
-        ,tags = {"@realizarBusca, @AddCarrinho"}
+        ,tags ={"@AddCarrinho"} //{"@realizarBusca, @AddCarrinho"}
 
 
         )

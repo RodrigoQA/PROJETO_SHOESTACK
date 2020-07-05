@@ -1,13 +1,11 @@
 package web.pages;
 
-import web.core.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import web.core.DriverFactory;
 
 import static web.core.DriverFactory.getDriver;
 
-public class PagamentoPage extends BasePage {
+public class PagamentoPage extends PageObject {
     private WebDriver driver;
 
 

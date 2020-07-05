@@ -1,0 +1,12 @@
+
+@
+java:S3010 "#Remove this assignment of "driver".(ÁÜÑ¥8õøé±.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(†Äéşøÿÿÿÿ8õøé±.
+£
+java:S2681a"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(ôg8ï¤é±.
+R
+java:S2209 "5Change this instance-reference to a static reference.(ÁÜÑ¥8õøé±.
+—
+java:S1130I"uRemove the declaration of thrown exception 'org.openqa.selenium.NoSuchElementException' which is a runtime exception.(ÛÀ’ˆÿÿÿÿÿ8õøé±.
+K
+java:S1068".Remove this unused "waitDriver" private field.(¨ª§é8õøé±.

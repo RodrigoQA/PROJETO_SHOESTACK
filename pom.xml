@@ -72,29 +72,28 @@
         <cucumber.version>1.2.5</cucumber.version>
         <rest-assured.version>3.1.1</rest-assured.version>
         <hamcrest.version>2.2</hamcrest.version>
+        <allure-cucumber4-jvm.versio>2.9.0</allure-cucumber4-jvm.versio>
+        <slf4j-simple.version>1.6.2</slf4j-simple.version>
+        <phantomjsdriver.version>1.2.1</phantomjsdriver.version>
+        <extentreports.version>3.1.2</extentreports.version>
+        <cucumber-extentsreport.version>3.0.2</cucumber-extentsreport.version>
+        <commons-io.version>2.6</commons-io.version>
     </properties>
 
 
     <dependencies>
-
-
-
-
-        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
             <version>${hamcrest.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -112,21 +111,16 @@
             <artifactId>rest-assured</artifactId>
             <version>${rest-assured.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
             <version>${hamcrest.version}</version>
-
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>${cucumber.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
@@ -142,14 +136,12 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>3.1.2</version>
+            <version>${extentreports.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
         <dependency>
             <groupId>com.vimalselvam</groupId>
             <artifactId>cucumber-extentsreport</artifactId>
-            <version>3.0.2</version>
-
+            <version>${cucumber-extentsreport.version}</version>
         <exclusions>
                 <exclusion>
                     <groupId>info.cukes</groupId>
@@ -161,17 +153,28 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>phantomjsdriver</artifactId>
-            <version>1.2.1</version>
+            <version>${phantomjsdriver.version}</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j-simple.version}</version>
+            <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber4-jvm</artifactId>
+            <version>${allure-cucumber4-jvm.versio}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
 
     </dependencies>
 

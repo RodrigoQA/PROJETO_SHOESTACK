@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import web.core.DriverFactory;
 
 import static web.core.DriverFactory.getDriver;
+import static web.core.Parametros.LOGIN_SHOESTOCK;
+import static web.core.Parametros.SENHA_SHOESTOCK;
 
 public class LoginPage {
     private WebDriver driver;
@@ -26,8 +28,8 @@ public class LoginPage {
         Thread.sleep(2000);
         getDriver().findElement(btnEntrar).click();
         getDriver().findElement(getlogin).click();
-        getDriver().findElement(getEmail).sendKeys("quality.assurance@test.com");
-        getDriver().findElement(getPassword).sendKeys("123psw@");
+        getDriver().findElement(getEmail).sendKeys(LOGIN_SHOESTOCK);
+        getDriver().findElement(getPassword).sendKeys(SENHA_SHOESTOCK);
         getDriver().findElement(acessarConta).click();
 
     }
