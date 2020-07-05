@@ -42,7 +42,7 @@ Plugin's <br>
  <h2> Parametros </h2>
  
  O projeto possui alguns parametros entre eles o da pagaina de checkout, é possivel escolher o tamanho e cor do produto 
- Porem é preciso se atentar, Ao alterar os parametros deve-se alterar tambem os asserts referentes a eles.
+
 
 <h2> After </h2>
 
