@@ -1,39 +1,42 @@
 
+Q
+java:S3740M"/Provide the parametrized type for this generic.(°ùËúıÿÿÿÿ8†ÈÉé±.
 E
-java:S1068"(Remove this unused "page" private field.(úÀ°²8Àâëê±.
-E
-java:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
+java:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
+m	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¶¬8†ÈÉé±.
+[
+java:S3516b"9Refactor this method to not always return the same value.(ª»…ßùÿÿÿÿ8†ÈÉé±.
 Q
 java:S3740M"/Provide the parametrized type for this generic.(°ùËúıÿÿÿÿ8†ÈÉé±.
 
 java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿û¨ç8Š×ÿê±.
-m	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¶¬8†ÈÉé±.
-E
-java:S1148^"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
-[
-java:S3516b"9Refactor this method to not always return the same value.(ª»…ßùÿÿÿÿ8†ÈÉé±.
 L
 java:S3740c"/Provide the parametrized type for this generic.(¶¶¬8†ÈÉé±.
+E
+java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8†ÈÉé±.
 r	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ùËúıÿÿÿÿ8†ÈÉé±.
 c
 java:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8†ÈÉé±.
+E
+java:S1068"(Remove this unused "page" private field.(úÀ°²8Àâëê±.
 c
 java:S2142]"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ùÚòç±.
-Q
-java:S3740M"/Provide the parametrized type for this generic.(°ùËúıÿÿÿÿ8†ÈÉé±.
-£
-java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(êÉø„øÿÿÿÿ8µÈê±.
-E
-java:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8†ÈÉé±.
-E
-java:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
-_
-java:S2583h"CChange this condition so that it does not always evaluate to "true"(³«T8†ÈÉé±.
+]
+java:S1126h"AReplace this if-then-else statement by a single return statement.(³«T8†ÈÉé±.
 G
 java:S1068"*Remove this unused "driver" private field.(ëÇ×8áˆ¡ë±.
 L
 java:S3740c"/Provide the parametrized type for this generic.(¶¶¬8†ÈÉé±.
+E
+java:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
+£
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(êÉø„øÿÿÿÿ8µÈê±.
 K
 java:S1068".Remove this unused "waitDriver" private field.(¨ª§é8²Øùç±.
-]
-java:S1126h"AReplace this if-then-else statement by a single return statement.(³«T8†ÈÉé±.
+E
+java:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ùÚòç±.
+H
+java:S1905V",Remove this unnecessary cast to "WebDriver".(™×Ì
+8Ğø±².
+_
+java:S2583h"CChange this condition so that it does not always evaluate to "true"(³«T8†ÈÉé±.

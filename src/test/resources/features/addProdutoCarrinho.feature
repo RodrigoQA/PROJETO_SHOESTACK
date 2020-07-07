@@ -23,10 +23,11 @@ Feature:Adicionar produto no carrinho com sucesso
       |<Tamanho>|<Cor>|<Preco>|<Desconto>|<SubTotal>|<Quantidade>|<nomeProduto>|
 
     Examples:
-      |Tamanho|Cor     |Preco    |Desconto  |SubTotal  |Quantidade|nomeProduto                                   |
-      |39     |Café    |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Bota Coturto Couro Shoestock Básica Masculina|
-      |41     |Azul    |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Mocassim Couro Shoestock Gravata Masculino   |
-      |39     |Caramelo|R$ 114,90|R$ 0,00   |R$ 114,90  |1         |Mocassim Couro Shoestock Gravata Masculino   |
+      |Tamanho   |Cor      |Preco    |Desconto  |SubTotal  |Quantidade|nomeProduto                                   |
+      |Único     |Off White|R$ 399,90|R$ 0,00   |R$ 399,90  |1         |Bolsa Shoestock Satchel Basic Feminina       |
+      |39        |Café     |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Bota Coturto Couro Shoestock Básica Masculina|
+      |41        |Azul     |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Mocassim Couro Shoestock Gravata Masculino   |
+      |Único     |Vermelho |R$ 149,90|R$ 0,00   |R$ 149,90  |1         |Carteira Couro Shoestock Lapela Feminina     |
 
 
 

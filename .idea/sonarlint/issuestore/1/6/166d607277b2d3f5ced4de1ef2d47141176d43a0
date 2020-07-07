@@ -1,27 +1,27 @@
 
-O
-java:S1444"2Make this "public static CAPTURA_TELA" field final(Ñö¶ë8æûôç±.
-W
-java:S1444"5Make this "public static LOGIN_SHOESTOCK" field final(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
-t
-java:S3008"WRename this field "CAPTURA_TELA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñö¶ë8æûôç±.
-|
-java:S3008"ZRename this field "LOGIN_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
-w
-java:S3008"ZRename this field "SENHA_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÁî°8÷ª×ç±.
-R
-java:S1444"5Make this "public static SENHA_SHOESTOCK" field final(ˆÁî°8÷ª×ç±.
-x
-java:S1104"[Make SENHA_SHOESTOCK a static final constant or non-public and provide accessors if needed.(ˆÁî°8÷ª×ç±.
-z
-java:S3008"XRename this field "URL_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô£Ù“üÿÿÿÿ8°Íôé±.
-}
-java:S1104"[Make LOGIN_SHOESTOCK a static final constant or non-public and provide accessors if needed.(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
-u
-java:S1104"XMake CAPTURA_TELA a static final constant or non-public and provide accessors if needed.(Ñö¶ë8æûôç±.
 W
 java:S1118":Add a private constructor to hide the implicit public one.(òÏø8×©Ïç±.
-U
-java:S1444"3Make this "public static URL_SHOESTOCK" field final(Ô£Ù“üÿÿÿÿ8ã„şé±.
 {
 java:S1104"YMake URL_SHOESTOCK a static final constant or non-public and provide accessors if needed.(Ô£Ù“üÿÿÿÿ8ã„şé±.
+W
+java:S1444"5Make this "public static LOGIN_SHOESTOCK" field final(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
+x
+java:S1104"[Make SENHA_SHOESTOCK a static final constant or non-public and provide accessors if needed.(ˆÁî°8÷ª×ç±.
+t
+java:S3008"WRename this field "CAPTURA_TELA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ƒ«8æûôç±.
+|
+java:S3008"ZRename this field "LOGIN_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
+}
+java:S1104"[Make LOGIN_SHOESTOCK a static final constant or non-public and provide accessors if needed.(¡„ÎÂøÿÿÿÿ8µ¦Öç±.
+O
+java:S1444"2Make this "public static CAPTURA_TELA" field final(¼ƒ«8æûôç±.
+z
+java:S3008"XRename this field "URL_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô£Ù“üÿÿÿÿ8°Íôé±.
+U
+java:S1444"3Make this "public static URL_SHOESTOCK" field final(Ô£Ù“üÿÿÿÿ8ã„şé±.
+u
+java:S1104"XMake CAPTURA_TELA a static final constant or non-public and provide accessors if needed.(¼ƒ«8æûôç±.
+R
+java:S1444"5Make this "public static SENHA_SHOESTOCK" field final(ˆÁî°8÷ª×ç±.
+w
+java:S3008"ZRename this field "SENHA_SHOESTOCK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÁî°8÷ª×ç±.

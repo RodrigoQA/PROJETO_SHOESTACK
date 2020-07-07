@@ -1,19 +1,16 @@
 
-©
-java:S2681H"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(úü™ıÿÿÿÿ8´¸í±.
-Z	java:S106>"9Replace this use of System.out or System.err by a logger.(†Äéşøÿÿÿÿ8õøé±.
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(­›‹8â”Ù².
+R
+java:S1068"0Remove this unused "indisponivel" private field.(…‡×÷øÿÿÿÿ8ë™ò±².
 G
-java:S1068"*Remove this unused "driver" private field.(ëÇ×8ïíÈì±.
-R
-java:S1068"0Remove this unused "indisponivel" private field.(…‡×÷øÿÿÿÿ8¹üÍì±.
+java:S1068"*Remove this unused "driver" private field.(ëÇ×8ë™ò±².
 @
-java:S3010!"#Remove this assignment of "driver".(ÁÜÑ¥8õøé±.
+java:S3010"#Remove this assignment of "driver".(ÁÜÑ¥8ë™ò±².
 R
-java:S2209!"5Change this instance-reference to a static reference.(ÁÜÑ¥8õøé±.
->
-java:S1116G"Remove this empty statement.(É¬ãùüÿÿÿÿ8´¸í±.
-—
-java:S1130P"uRemove the declaration of thrown exception 'org.openqa.selenium.NoSuchElementException' which is a runtime exception.(ÛÀ’ˆÿÿÿÿÿ8õøé±.
+java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8ë™ò±².
 K
-java:S1068".Remove this unused "waitDriver" private field.(¨ª§é8õøé±.
-Z	java:S106J"9Replace this use of System.out or System.err by a logger.(•¶ğıÿÿÿÿ8¸ÒÚì±.
+java:S1068".Remove this unused "waitDriver" private field.(¨ª§é8ë™ò±².
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(•¶ğıÿÿÿÿ8ë™ò±².
+>
+java:S1116>"Remove this empty statement.(É¬ãùüÿÿÿÿ8ë™ò±².
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(†Äéşøÿÿÿÿ8ë™ò±².

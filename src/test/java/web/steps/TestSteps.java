@@ -80,7 +80,7 @@ public class TestSteps {
     }
 
     @Given("^seleciono a cor \"([^\"]*)\" e \"([^\"]*)\" do produto$")
-    public void selecionoACorEDoProduto(String cor, int tam) throws Throwable {
+    public void selecionoACorEDoProduto(String cor, String tam) throws Throwable {
         checkout.selecionarCor(cor);
         checkout.selecionarTamanho(tam);
         checkout.precoProduto();

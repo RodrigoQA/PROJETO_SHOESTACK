@@ -23,6 +23,7 @@ public class CheckoutPage extends PageObject {
     private By getCorSelecionada = By.cssSelector(".sku-select-title");
     private By getTamanhoSelecionado = By.cssSelector("#buy-box > section.product-size-selector > div > ul li.active");
     private By comprar = By.cssSelector("#buy-button-now.buy-button-now.button-no-float");
+    private By tamanhoUnico = By.xpath("(//a[contains(@data-label,'Único')])[1]");
     private By indisponivel = By.cssSelector("#action-buttons .title");
 
     public CheckoutPage(WebDriver driver) {
@@ -38,19 +39,9 @@ public class CheckoutPage extends PageObject {
         return getDriver().findElement(getPreco).getText();
     }
 
-    public void selecionarCor(String color) {
+    public void selecionarCor(String cor) {
         visibilityOfElementLocatedFluentWait(".tcell");
-        if (color.contains("Azul")) {
-            setColor("Azul");
-        } else if (color.contains("Caramelo")) {
-            setColor("Caramelo");
-        } else if (color.contains("Preto")) {
-            setColor("Preto");
-        } else if (color.contains("Café")) {
-            setColor("Café");
-        } else if (color.contains("Branco")) {
-            setColor("Branco");
-        }
+        setColor(cor);
     }
 
     public String corSelecionada() {
@@ -78,16 +69,17 @@ public class CheckoutPage extends PageObject {
         return new CarrinhoPage();
     }
 
-    public void selecionarTamanho(int number) {
+    public void selecionarTamanho(String tamanho) {
         esperarElemento();
-        WebElement disponivel = getDriver().findElement(By.xpath("(//a[contains(@data-size,'size-" + number + "')])[1]"));
-        if (disponivel.getAttribute("qa-option").equals("unavailable")) {
+        WebElement disponivel = getDriver().findElement(By.xpath("(//a[contains(@data-size,'size-" + tamanho + "')])[1]"));
+        if (tamanho.equals("Único")){
+            getDriver().findElement(tamanhoUnico).click();
+        } else if (disponivel.getAttribute("qa-option").equals("unavailable")) {
             System.out.println("Desculpe, mas esse numero não esta disponivel");
             killDriver();
         } else {
             disponivel.click();
         }
-
 
     }
 

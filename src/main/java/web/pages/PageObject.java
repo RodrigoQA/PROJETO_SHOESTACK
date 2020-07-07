@@ -115,4 +115,5 @@ public class PageObject implements Page {
         getDriver().findElement(By.xpath("//*[@data-property-name='"+cor+"']")).click();
 
     }
+
 }

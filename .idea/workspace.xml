@@ -2,79 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97606f10-4ab2-4ae6-bc2c-ff1ae166c45f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a90998b04b9d9c92718471c263652864a5a986" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a90998b04b9d9c92718471c263652864a5a986" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897fcd75a364ff5c9aae0319363772103d28ce56" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897fcd75a364ff5c9aae0319363772103d28ce56" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1ec63867941a919c48a806036d4f7b6fd51eeb0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1ec63867941a919c48a806036d4f7b6fd51eeb0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9483b42e6b3247f98a188849de47ed17fb03464" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9483b42e6b3247f98a188849de47ed17fb03464" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4daf19c5ddacb888cc1c3d1fd7376349a5b5468" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4daf19c5ddacb888cc1c3d1fd7376349a5b5468" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8d5c156a33812c7186b3c883918fdcaa1650cd1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8d5c156a33812c7186b3c883918fdcaa1650cd1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf7de9b5062f68673390630f460c90bd05967e8c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf7de9b5062f68673390630f460c90bd05967e8c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e97e969e302d4890c7829e5d9ccfb97c60b59475" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0b7dcbc9-d265-413b-ad76-c2344ea32472-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0de3b8e8-e9aa-44ad-a6ec-1bd86c5b4426-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/20f51ac3-d8a6-4376-bb33-fb1eb510ac8d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/21193668-c0dc-46ec-8644-029def37365d-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/256f5137-1384-4e73-8c7e-e5e64a310b1b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2d115709-7640-4617-9934-b37b493b5029-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2f7611d1-b0c7-4f45-b6d3-2b35d6bad113-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/304e3600-946c-41e2-b347-713660ca01a1-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/33ed40a3-9819-4025-8c50-f06315953cc6-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/399e8104-e93c-4708-99ea-09adb4451c0e-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3c674f1b-1fe1-4061-a9c7-fdf8624ebc64-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3f006a3a-36a3-4922-9a10-782eea47aa57-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4321f0cf-d48c-455e-8ec0-4af254304f18-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/44ace28c-29f4-45f4-8abe-8657d24cf284-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4648b2c6-320d-44f6-b897-8084ea7cae12-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/4afba657-2e4a-4d11-ba98-5765b143a256-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/50510609-c38b-4073-b254-36abe0aa32e9-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5105fe70-6080-4022-8c82-50e56851ab62-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5224fced-f50d-4cca-b61a-c473f0591816-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/622772dc-9e1e-421a-b438-207df733ab4b-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/63a628d9-d214-4e38-b947-0cbad0f9accb-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/69b73f64-6664-4d37-9ebf-fcca9ddbb1bf-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6c135e0b-ccba-4d96-95ed-d6abcd0839c1-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/73abaf52-ce91-4121-a406-f5c6915adef3-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/7761fc37-c315-48a1-a2d4-d86b940c3222-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/79a70f4f-bdc9-449b-a2f7-e58fc4e7d5fb-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/80f34cb4-a976-44b5-9524-dea08a86cd54-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/84977f83-bd95-47f4-b361-0a81cf276058-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8f6df535-4916-4477-81f0-3de93c4dc016-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9481927f-2143-419f-9ee1-32703177a515-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/960652b4-67a6-42cf-b142-7f9698092a86-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/96624165-81a1-4167-b241-bff012748901-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b2fb8e1a-0d8f-47bb-9f7a-682cff2055bd-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/b3a27220-9f0a-4a2b-985c-4e6a4434fd66-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c021c59d-a2ae-4e97-b872-0936ee417709-attachment" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/clicoNoBotaoComprar.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/clicoNoBotaoContinuar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/de179f31-0e6e-42f4-b97f-cc43e2437670-attachment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e7474edd-ed3a-4bee-8a3f-596d7213d6c6-attachment" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/estou logado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fb3fb692-1587-47a4-aaeb-9a1aef995111-attachment" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/limparCarrinho.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/naoEstouLogado.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/pagina de checkout.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/pesquisa com sucesso.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/selecionoACorEDoProduto.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/validoAsInformacoesDaPaginaDePagamento.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-results/valido_as_informacoes_da_pagina_do_carrinho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/CarrinhoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/core/Parametros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/core/Parametros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/PagamentoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/pages/PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/addProdutoCarrinho.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/addProdutoCarrinho.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/realizarBusca.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/realizarBusca.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/CarrinhoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/CarrinhoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/core/Parametros.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/core/Parametros.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/web/pages/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/CheckoutPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/PagamentoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/PagamentoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/web/pages/PageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/pages/PageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/addProdutoCarrinho.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/addProdutoCarrinho.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/realizarBusca.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/realizarBusca.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/web/steps/TestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/web/steps/TestSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,23 +63,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\devOps\projetos\automacao\web\yaman\src\test" />
-      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources" />
-      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources\configs" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="api.util" />
       <recent name="api" />
       <recent name="" />
       <recent name="web" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\devOps\projetos\automacao\web\yaman\src\test" />
       <recent name="C:\devOps\projetos\automacao\web\yaman\src\test\java\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\test" />
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources" />
+      <recent name="C:\devOps\projetos\automacao\web\yaman\src\main\resources\configs" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
@@ -343,38 +295,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="263" key="GridCell.Tab.-1.right/0.0.1366.728@0.0.1366.728" timestamp="1593888251552" />
-    <state width="1323" height="134" key="GridCell.Tab.0.bottom" timestamp="1594083941536">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="134" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594083941536" />
-    <state width="1323" height="134" key="GridCell.Tab.0.center" timestamp="1594083941536">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.0.center" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="134" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594083941536" />
-    <state width="1323" height="134" key="GridCell.Tab.0.left" timestamp="1594083941536">
+    <state width="1323" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.0.left" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="134" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594083941536" />
-    <state width="1323" height="134" key="GridCell.Tab.0.right" timestamp="1594083941536">
+    <state width="1323" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.0.right" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="134" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594083941536" />
-    <state width="1323" height="260" key="GridCell.Tab.1.bottom" timestamp="1594083333458">
+    <state width="1323" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.1.bottom" timestamp="1594160862810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594083333458" />
-    <state width="1323" height="260" key="GridCell.Tab.1.center" timestamp="1594083333457">
+    <state width="1323" height="260" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594160862810" />
+    <state width="1323" height="260" key="GridCell.Tab.1.center" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594083333457" />
-    <state width="1323" height="260" key="GridCell.Tab.1.left" timestamp="1594083333457">
+    <state width="1323" height="260" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.1.left" timestamp="1594160862809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594083333457" />
-    <state width="1323" height="260" key="GridCell.Tab.1.right" timestamp="1594083333457">
+    <state width="1323" height="260" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594160862809" />
+    <state width="1323" height="260" key="GridCell.Tab.1.right" timestamp="1594160862810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="260" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594083333457" />
+    <state width="1323" height="260" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594160862810" />
     <state width="1323" height="263" key="GridCell.Tab.2.bottom" timestamp="1593888250314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -395,10 +347,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593746692391" />
-    <state x="282" y="198" width="861" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594075553780">
+    <state x="282" y="198" width="861" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594158736562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="282" y="198" width="861" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1594075553780" />
+    <state x="282" y="198" width="861" height="530" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1594158736562" />
     <state x="413" y="114" key="extract.method.dialog" timestamp="1593919321240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -429,12 +381,7 @@
           <line>58</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/web/pages/CheckoutPage.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/web/steps/TestSteps.java</url>
           <line>83</line>
           <option name="timeStamp" value="24" />
