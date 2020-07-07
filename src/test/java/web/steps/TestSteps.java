@@ -65,7 +65,7 @@ public class TestSteps {
     @Then("^sera apresentado o resultado da pesquisa$")
     public void seraApresentadoOResultadoDaPesquisa() throws Throwable {
         // assertEquals(" 1 resultado",homePage.qtsResutadoDaPesquisa());
-        homePage.descResutadoDaPesquisa("Mocassim Couro Shoestock Gravata Masculino".toUpperCase());
+        //homePage.descResutadoDaPesquisa("Mocassim Couro Shoestock Gravata Masculino".toUpperCase());
         System.out.println(homePage.qtsResutadoDaPesquisa());
         assertThat(homePage.quantidadeProdutosEncontrados(), Matchers.greaterThan(0));
         System.out.println("Resultado da pesquisa: " + homePage.quantidadeProdutosEncontrados());
@@ -73,10 +73,10 @@ public class TestSteps {
 
     }
 
-    @Given("^clico no produto apresentado$")
-    public void clicoNoProdutoApresentado() throws Throwable {
-        homePage.selecionarProdutoDesejado("Mocassim Couro Shoestock Gravata Masculino");
-        capturaImagem("pagina de checkout");
+    @Then("^clico no produto apresentado \"([^\"]*)\"$")
+    public void clicoNoProdutoApresentado(String produto) throws Throwable {
+        homePage.selecionarProdutoDesejado(produto);
+      //  capturaImagem("paginaCheckout");
     }
 
     @Given("^seleciono a cor \"([^\"]*)\" e \"([^\"]*)\" do produto$")
@@ -99,10 +99,9 @@ capturaImagem("selecionoACorEDoProduto");
 
     @Then("^valido as informacoes da pagina do carrinho$")
     public void valido_as_informacoes_da_pagina_do_carrinho(DataTable dataTable) throws Throwable {
-
         List<Map<String, String>> dadosCarrinho = dataTable.asMaps(String.class, String.class);
         dados = dadosCarrinho.get(0);
-        //validacoes do carrinho
+         //validacoes do carrinho
           assertEquals(dados.get("nomeProduto").toUpperCase(),carrinho.obterNomeProduto().toUpperCase());
           assertEquals(dados.get("Tamanho"),carrinho.obterTamanhoProduto());
           assertEquals(dados.get("Quantidade"),carrinho.obterQuantidadeProduto());

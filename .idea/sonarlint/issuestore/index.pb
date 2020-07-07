@@ -30,4 +30,4 @@ V
 Q
 !src/main/java/web/pages/Page.java,e\b\eb4dc6d518517dfe87d3de61a95100fa7ba50b6e
 W
-'src/main/java/web/pages/PageObjetc.java,e\9\e97e969e302d4890c7829e5d9ccfb97c60b59475
+'src/main/java/web/pages/PageObject.java,a\1\a1ec63867941a919c48a806036d4f7b6fd51eeb0

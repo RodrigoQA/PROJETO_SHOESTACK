@@ -50,14 +50,16 @@ public class CarrinhoPage extends PageObject {
     public String obterTamanhoProduto(){
         esperarElemento();
         String text = getDriver().findElement(tamanhoProduto).getText();
-        System.out.println(text);
-        return text;
+       String tam = text.replace("Tamanho: ","");
+        System.out.println(tam);
+        return tam;
     }
     public String obterCorProduto(){
         visibilityOfElementLocatedWait("//p[@class='custom__text'][contains(.,'Cor:')]");
         String text = getDriver().findElement(corProduto).getText();
-        System.out.println(text);
-        return text;
+        String cor = text.replace("Cor: ","");
+        System.out.println(cor);
+        return cor;
     }
     public String vlrSubTotalProdutos(){
         return getDriver().findElement(subTotal).getText();

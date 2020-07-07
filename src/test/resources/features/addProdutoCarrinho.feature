@@ -1,4 +1,3 @@
-#language:en
 Feature:Adicionar produto no carrinho com sucesso
   Como usuario não logado
   Eu desejo adicionar um produto no carrinho
@@ -10,10 +9,10 @@ Feature:Adicionar produto no carrinho com sucesso
   @AddCarrinho
   Scenario Outline:Deve adicionar produto no carrinho com sucesso
     When estou logado
-    Then faco uma pesquiso pelo nome do produto "Mocassim Couro Shoestock Gravata Masculino"
+    Then faco uma pesquiso pelo nome do produto "<nomeProduto>"
     Then sera apresentado o resultado da pesquisa
-    Then clico no produto apresentado
-    Then seleciono a cor "Azul" e "41" do produto
+    Then clico no produto apresentado "<nomeProduto>"
+    Then seleciono a cor "<Cor>" e "<Tamanho>" do produto
     Then clico no botao comprar
     Then valido as informacoes da pagina do carrinho
       |Tamanho  |Cor  |Preco  |Desconto  |SubTotal  |Quantidade  |nomeProduto  |
@@ -23,11 +22,11 @@ Feature:Adicionar produto no carrinho com sucesso
       |Tamanho  |Cor  |Preco  |Desconto  |SubTotal  |Quantidade  |nomeProduto  |
       |<Tamanho>|<Cor>|<Preco>|<Desconto>|<SubTotal>|<Quantidade>|<nomeProduto>|
 
-
-
     Examples:
-      |Tamanho    |Cor          |Preco    |Desconto  |SubTotal  |Quantidade|nomeProduto                               |
-      |Tamanho: 41|Cor: Azul    |R$ 229,90|R$ 0,00   |R$ 229,90 |1         |Mocassim Couro Shoestock Gravata Masculino|
+      |Tamanho|Cor     |Preco    |Desconto  |SubTotal  |Quantidade|nomeProduto                                   |
+      |39     |Café    |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Bota Coturto Couro Shoestock Básica Masculina|
+      |41     |Azul    |R$ 229,90|R$ 0,00   |R$ 229,90  |1         |Mocassim Couro Shoestock Gravata Masculino   |
+      |39     |Caramelo|R$ 114,90|R$ 0,00   |R$ 114,90  |1         |Mocassim Couro Shoestock Gravata Masculino   |
 
 
 

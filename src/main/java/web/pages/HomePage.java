@@ -46,6 +46,7 @@ public class HomePage extends PageObject {
         esperarElemento();
         visibilityOfElementLocatedFluentWait(".input-label #search-input");
         getDriver().findElement(barraDePesquisa).sendKeys(produto);
+        esperarElemento();
         getDriver().findElement(buscar).click();
 
     }

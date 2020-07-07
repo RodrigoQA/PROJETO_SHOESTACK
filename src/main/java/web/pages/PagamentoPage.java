@@ -38,11 +38,15 @@ public class PagamentoPage extends PageObject {
     }
 
     public String corProduto(){
-       return getDriver().findElement(cor).getText();
+       String text = getDriver().findElement(cor).getText();
+       String cor = text.replace("Cor: ", "");
+       return cor;
     }
 
     public String tamanhoProduto(){
-        return  getDriver().findElement(tamanhoProduto).getText();
+     String text = getDriver().findElement(tamanhoProduto).getText();
+    String tam = text.replace("Tamanho: ", "");
+    return tam;
 
     }
 

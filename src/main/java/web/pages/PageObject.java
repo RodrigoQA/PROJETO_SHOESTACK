@@ -108,6 +108,11 @@ public class PageObject implements Page {
     }
 
     public void clicarProdutoByNome(String produto) {
-        getDriver().findElement(By.xpath("//span[contains(text(),'" + produto + "')]")).click();
+        getDriver().findElement(By.xpath("//span[contains(text(),'" + produto+ "')]")).click();
+    }
+
+    public void setColor(String cor){
+        getDriver().findElement(By.xpath("//*[@data-property-name='"+cor+"']")).click();
+
     }
 }

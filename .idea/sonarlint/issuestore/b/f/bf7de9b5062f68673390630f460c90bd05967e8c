@@ -1,8 +1,8 @@
 
 N
-java:S49737"9Use the "equals" method if value comparison was intended.(ÛÚè0
-S	java:S1066"9Replace this use of System.out or System.err by a logger.(›ƒ¨±ÿÿÿÿÿ
-R
-java:S2209"5Change this instance-reference to a static reference.(ÁÜÑ¥8–ÀÕê±.
-X
-java:S3252";Use static access with "web.pages.PageObjetc" for "driver".(ÁÜÑ¥8–ÀÕê±.
+java:S4973E"9Use the "equals" method if value comparison was intended.(ÛÚè0
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.Dimension'.(ôûÑö8 Ö’ì±.
+L
+java:S3740"/Provide the parametrized type for this generic.(™åü8¾§ì±.
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(›ƒ¨±ÿÿÿÿÿ
