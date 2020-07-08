@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: web.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 8, Errors: 0, Skipped: 8, Time elapsed: 161.806 sec <<< FAILURE!
+Then valido as informacoes da pagina do carrinho(| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |)  Time elapsed: 0.013 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA> but was:<[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |  Time elapsed: 0.014 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA> but was:<[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+Then valido as informacoes da pagina do carrinho(| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA> but was:<[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA> but was:<[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+Then valido as informacoes da pagina do carrinho(| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]> but was:<[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]> but was:<[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+Then valido as informacoes da pagina do carrinho(| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[2]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:107)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+
+| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[1]> but was:<[2]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:107)
+	at ?.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="44" failures="8" name="web.runner.Runner" time="0.102" errors="0" skipped="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\devOps\projetos\automacao\web\yaman"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="Runner"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\devOps\projetos\automacao\web\yaman"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RODRIG~1.LIM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apache\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5\ConEmu;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\Maven\bin;C:\Tools\selenium;C:\Program Files\nodejs\;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools\bin;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Ruby25-x64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby25-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;&quot;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\rodrigo.lima\AppData\Local\Microsoft\WindowsApps&quot;;C:\Users\rodrigo.lima\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rodrigo.lima\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda;."/>
+    <property name="maven.conf" value="C:\Program Files\Apache\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apache\Maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\rodrigo.lima"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="rodrigo.lima"/>
+    <property name="java.class.path" value="C:\Program Files\Apache\Maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=Runner"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apache\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Given que estou na paginal inicial do site shoestok" time="0.004"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="When estou logado" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then faco uma pesquiso pelo nome do produto &quot;Bolsa Shoestock Satchel Basic Feminina&quot;" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then sera apresentado o resultado da pesquisa" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then clico no produto apresentado &quot;Bolsa Shoestock Satchel Basic Feminina&quot;" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then seleciono a cor &quot;Off White&quot; e &quot;Único&quot; do produto" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then clico no botao comprar" time="0"/>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then valido as informacoes da pagina do carrinho" time="0.013">
+    <failure message="expected:&lt;[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+    <system-out>Carteira Couro Shoestock Lapela Feminina
+</system-out>
+  </testcase>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" time="0.014">
+    <failure message="expected:&lt;[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[BOLSA SHOESTOCK SATCHEL BASIC] FEMININA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA] FEMININA&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then clico no botao continuar" time="0.023">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Único | Off White | R$ 399,90 | R$ 0,00 | R$ 399,90 | 1 | Bolsa Shoestock Satchel Basic Feminina |" name="Then valido as informacoes da pagina de pagamento" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Given que estou na paginal inicial do site shoestok" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="When estou logado" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then faco uma pesquiso pelo nome do produto &quot;Bota Coturto Couro Shoestock Básica Masculina&quot;" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then sera apresentado o resultado da pesquisa" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then clico no produto apresentado &quot;Bota Coturto Couro Shoestock Básica Masculina&quot;" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then seleciono a cor &quot;Café&quot; e &quot;39&quot; do produto" time="0.001"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then clico no botao comprar" time="0"/>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then valido as informacoes da pagina do carrinho" time="0.001">
+    <failure message="expected:&lt;[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+    <system-out>Carteira Couro Shoestock Lapela Feminina
+</system-out>
+  </testcase>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" time="0.001">
+    <failure message="expected:&lt;[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[BOTA COTURTO COURO SHOESTOCK BÁSICA MASCUL]INA&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMIN]INA&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then clico no botao continuar" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 39 | Café | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Bota Coturto Couro Shoestock Básica Masculina |" name="Then valido as informacoes da pagina de pagamento" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Given que estou na paginal inicial do site shoestok" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="When estou logado" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then faco uma pesquiso pelo nome do produto &quot;Mocassim Couro Shoestock Gravata Masculino&quot;" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then sera apresentado o resultado da pesquisa" time="0.001"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then clico no produto apresentado &quot;Mocassim Couro Shoestock Gravata Masculino&quot;" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then seleciono a cor &quot;Azul&quot; e &quot;41&quot; do produto" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then clico no botao comprar" time="0"/>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then valido as informacoes da pagina do carrinho" time="0">
+    <failure message="expected:&lt;[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+    <system-out>Carteira Couro Shoestock Lapela Feminina
+</system-out>
+  </testcase>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" time="0">
+    <failure message="expected:&lt;[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[MOCASSIM COURO SHOESTOCK GRAVATA MASCULINO]&gt; but was:&lt;[CARTEIRA COURO SHOESTOCK LAPELA FEMININA]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:105)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then clico no botao continuar" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 41 | Azul | R$ 229,90 | R$ 0,00 | R$ 229,90 | 1 | Mocassim Couro Shoestock Gravata Masculino |" name="Then valido as informacoes da pagina de pagamento" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Given que estou na paginal inicial do site shoestok" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="When estou logado" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then faco uma pesquiso pelo nome do produto &quot;Carteira Couro Shoestock Lapela Feminina&quot;" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then sera apresentado o resultado da pesquisa" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then clico no produto apresentado &quot;Carteira Couro Shoestock Lapela Feminina&quot;" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then seleciono a cor &quot;Vermelho&quot; e &quot;Único&quot; do produto" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then clico no botao comprar" time="0"/>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then valido as informacoes da pagina do carrinho" time="0">
+    <failure message="expected:&lt;[1]&gt; but was:&lt;[2]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[1]&gt; but was:&lt;[2]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:107)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+    <system-out>Carteira Couro Shoestock Lapela Feminina
+Único
+2
+</system-out>
+  </testcase>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" time="0.001">
+    <failure message="expected:&lt;[1]&gt; but was:&lt;[2]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[1]&gt; but was:&lt;[2]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at web.steps.Test.valido_as_informacoes_da_pagina_do_carrinho(Test.java:107)
+	at ✽.Then valido as informacoes da pagina do carrinho(addProdutoCarrinho.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then clico no botao continuar" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Único | Vermelho | R$ 149,90 | R$ 0,00 | R$ 149,90 | 1 | Carteira Couro Shoestock Lapela Feminina |" name="Then valido as informacoes da pagina de pagamento" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -18,7 +18,7 @@ import static web.core.DriverFactory.killDriver;
 import static web.core.Parametros.*;
 import static web.pages.PageObject.capturaImagem;
 
-public class TestSteps {
+public class Test {
     Map<String, String> dados;
     String Tamanho;
     String Cor;
