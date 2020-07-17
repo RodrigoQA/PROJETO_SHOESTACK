@@ -1,13 +1,13 @@
 
-Z	java:S1066"9Replace this use of System.out or System.err by a logger.(†Äéþøÿÿÿÿ8÷¯™¯².
+”
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ö‘¿ÿ8Šù•¯².
+U	java:S106."9Replace this use of System.out or System.err by a logger.(¹ŸÃÿ8ý¹„î±.
 L
 java:S1068
 "*Remove this unused "driver" private field.(š…ŒÅøÿÿÿÿ8Ø´Ë—±.
 U	java:S106="9Replace this use of System.out or System.err by a logger.(¬±—æ8ùÇ¶¯².
-”
-java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ö‘¿ÿ8Šù•¯².
-U	java:S106."9Replace this use of System.out or System.err by a logger.(¹ŸÃÿ8ý¹„î±.
 v	java:S116"URename this field "QtsProduto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú±£§üÿÿÿÿ8Ø´Ë—±.
 U	java:S106("9Replace this use of System.out or System.err by a logger.(ŸøôÓ8ý¹„î±.
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(†Äéþøÿÿÿÿ8÷¯™¯².
 ”
 java:S1130+"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(„”Ôž8Šù•¯².

@@ -21,8 +21,9 @@ public class DriverFactory {
     private static final String DRIVER_FIREFOX = "firefox";
     private static final String HEADLESS_CHROME = "chrome-headless";
     private static final String DRIVER_PHANTOM = "phantom";
-    private static String nomeDriver = HEADLESS_CHROME;
+    private static String nomeDriver = DRIVER_CHORME;
     static Logger log = Logger.getLogger("QALogger");
+
 
     public static WebDriver getDriver() {
         if (driver == null) {
@@ -82,12 +83,12 @@ public class DriverFactory {
                     System.setProperty("webdriver.ie.driver", "C:\\drivers\\IEDriver\\IEDriverServer.exe");
                     DesiredCapabilities capabilitiesIE = DesiredCapabilities.internetExplorer();
                     capabilitiesIE.setCapability("requireWindowFocus", true);
-//				capabilitiesIE.setCapability(InternetExplorerDriver.REQUIRE_WINDOW_FOCUS,true);
-//				capabilitiesIE.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
-//				capabilitiesIE.setCapability("ie.ensureCleanSession", true);
+                    capabilitiesIE.setCapability(InternetExplorerDriver.REQUIRE_WINDOW_FOCUS,true);
+   		        	capabilitiesIE.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+     				capabilitiesIE.setCapability("ie.ensureCleanSession", true);
                     capabilitiesIE.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
-//				capabilitiesIE.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
-                    //capabilitiesIE.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);
+                    capabilitiesIE.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
+                    capabilitiesIE.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS, true);
                     driver = new InternetExplorerDriver(capabilitiesIE);
                     log.info("Internet Explorer Driver selecionado");
 

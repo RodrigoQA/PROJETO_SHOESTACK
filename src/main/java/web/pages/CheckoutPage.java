@@ -65,18 +65,19 @@ public class CheckoutPage extends PageObject {
             System.out.println(e.getMessage() + "desculpe mas nao temos mais esse tamanho");
             killDriver();
 
+
         }
         return new CarrinhoPage();
     }
 
-    public void selecionarTamanho(String tamanho) {
+    public void selecionarTamanho(String tamanho) throws Exception {
         esperarElemento();
         WebElement disponivel = getDriver().findElement(By.xpath("(//a[contains(@data-size,'size-" + tamanho + "')])[1]"));
         if (tamanho.equals("Único")){
             getDriver().findElement(tamanhoUnico).click();
         } else if (disponivel.getAttribute("qa-option").equals("unavailable")) {
-            System.out.println("Desculpe, mas esse numero não esta disponivel");
-            killDriver();
+            throw new Exception("Desculpe, mas esse numero não esta disponivel");
+
         } else {
             disponivel.click();
         }

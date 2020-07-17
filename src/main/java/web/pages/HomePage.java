@@ -12,6 +12,7 @@ import static web.core.DriverFactory.getDriver;
 
 public class HomePage extends PageObject {
     WebDriver driver;
+    CarrinhoPage carrinho = new CarrinhoPage();
     public HomePage(Page page) {
        super(page);
     }
@@ -23,6 +24,9 @@ public class HomePage extends PageObject {
     private By qtsResultado = By.cssSelector("span.block"); //yaman
     private By produtosEncontrados =By.cssSelector("#item-list .item-card");
     private By descricaoProduto = By.cssSelector(".item-card__description__product-name");
+    private By itensSacola = By.cssSelector(".cart-count-badge span");
+    private By remover = By.cssSelector(".remove-icon");
+
 
 
 
@@ -42,14 +46,25 @@ public class HomePage extends PageObject {
     }
 
 
-    public void pesquisarPorItem(String produto)  {
-        esperarElemento();
-        visibilityOfElementLocatedFluentWait(".input-label #search-input");
-        getDriver().findElement(barraDePesquisa).sendKeys(produto);
-        esperarElemento();
-        getDriver().findElement(buscar).click();
-
-    }
+    public void pesquisarPorItem(String produto) {
+        // verificar se o carrinho está vazio
+        String itens = getDriver().findElement(itensSacola).getText();
+        if (Integer.parseInt(itens) != 0) {
+            getDriver().findElement(itensSacola).click();
+            WebElement lixeira = getDriver().findElement(remover);
+            lixeira.click();
+            esperarElemento();
+            visibilityOfElementLocatedFluentWait(".search .search__input");
+            getDriver().findElement(By.cssSelector(".search .search__input")).sendKeys(produto);
+            esperarElemento();
+            getDriver().findElement(By.cssSelector("button.search__button")).click();
+        }else {
+            visibilityOfElementLocatedFluentWait(".input-label #search-input");
+            getDriver().findElement(barraDePesquisa).sendKeys(produto);
+            esperarElemento();
+            getDriver().findElement(buscar).click();
+        }
+   }
 
       public String qtsResutadoDaPesquisa() {
           getDriver().findElement(descricaoProduto).getText();

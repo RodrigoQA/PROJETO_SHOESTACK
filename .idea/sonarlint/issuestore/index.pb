@@ -17,8 +17,6 @@ T
 $src/main/java/api/core/BaseTest.java,2\3\2347d2a7b0b6b45ec82bc31df7c6be25b98baa82
 Y
 )src/main/java/web/core/DriverFactory.java,a\9\a9483b42e6b3247f98a188849de47ed17fb03464
-V
-&src/test/java/web/steps/TestSteps.java,7\8\78a90998b04b9d9c92718471c263652864a5a986
 Y
 )src/main/java/web/pages/CheckoutPage.java,b\8\b8d5c156a33812c7186b3c883918fdcaa1650cd1
 T
@@ -31,3 +29,10 @@ Q
 !src/main/java/web/pages/Page.java,e\b\eb4dc6d518517dfe87d3de61a95100fa7ba50b6e
 W
 'src/main/java/web/pages/PageObject.java,a\1\a1ec63867941a919c48a806036d4f7b6fd51eeb0
+;
+jenkinsFile,6\8\6876c894178fb7a9f232bb061cb5815bdefe0568
+Q
+!src/test/java/web/steps/Test.java,2\6\2666f897e01fe90a1e18d8ac2f86aacd1f8657ef
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

@@ -1,6 +1,7 @@
 package web.steps;
 
 import cucumber.api.DataTable;
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -13,9 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.*;
-import static web.core.DriverFactory.getDriver;
-import static web.core.DriverFactory.killDriver;
-import static web.core.Parametros.*;
+import static web.core.DriverFactory.*;
 import static web.pages.PageObject.capturaImagem;
 
 public class Test {
@@ -27,6 +26,8 @@ public class Test {
     String Quantidade;
     String nomeProduto;
     String pagina;
+
+    Scenario scenario;
     String url;
 
     private static WebDriver driver;
@@ -39,8 +40,8 @@ public class Test {
 
     @Given("^que estou na paginal inicial do site shoestok$")
     public void queEstouNaPaginalInicialDoSiteShoestok(DataTable dataTable) throws Throwable {
-        getDriver().get(URL_SHOESTOCK);
-
+          url= (String) dataTable.asMap(String.class, String.class).get("pagina");
+          getDriver().get(url);
 
     }
 
@@ -139,12 +140,13 @@ capturaImagem("selecionoACorEDoProduto");
         assertTrue(pagamento.isVisivelCodSeguranca());
         assertTrue(pagamento.isVisivelNParcelas());
         capturaImagem("validoAsInformacoesDaPaginaDePagamento");
-        carrinho.limparCarrinho();
         capturaImagem("limparCarrinho");
 
    }
     @After
     public static void finalizar() {
+        CarrinhoPage  carrinho= new CarrinhoPage();
+        carrinho.limparCarrinho();
         killDriver();
     }
 }

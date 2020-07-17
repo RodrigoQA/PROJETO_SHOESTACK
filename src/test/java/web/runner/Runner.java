@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
          strict = true
-        ,features = {"./src/test/resources/features"}
+        ,features = {" ./src/test/resources/features "}
         ,snippets = SnippetType.CAMELCASE
         ,glue = {"web/steps/"}
         ,monochrome = true

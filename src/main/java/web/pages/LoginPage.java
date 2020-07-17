@@ -32,5 +32,6 @@ public class LoginPage {
         getDriver().findElement(getPassword).sendKeys(SENHA_SHOESTOCK);
         getDriver().findElement(acessarConta).click();
 
+
     }
 }
