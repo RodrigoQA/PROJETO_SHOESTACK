@@ -2,11 +2,10 @@
 
 # Arquivos de pacote #
 *.xml
-
+*.idea/sonarlint
 # Itens específicos do usuário:
 .idea / workspace.xml
 .idea / tasks.xml
 .idea / dicionários
-.idea / vcs.xml
+.idea / vcs.xmlqq
 .idea / jsLibraryMappings.xml
-.idea/sonarlint
