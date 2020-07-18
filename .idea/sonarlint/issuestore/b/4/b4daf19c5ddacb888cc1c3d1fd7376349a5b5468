@@ -1,9 +1,0 @@
-
-x
-java:S14880"[Immediately return this expression instead of assigning it to the temporary variable "tam".(ì½¬8üº˜±².
-}
-java:S1488*"[Immediately return this expression instead of assigning it to the temporary variable "cor".(æ®é†şÿÿÿÿ8›¿±².
-Y
-java:S1117*"7Rename "cor" which hides the field declared at line 15.(æ®é†şÿÿÿÿ8 «œ±².
-L
-java:S1068	"*Remove this unused "driver" private field.(š…ŒÅøÿÿÿÿ8îÀÛ—±.

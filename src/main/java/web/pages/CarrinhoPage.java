@@ -14,7 +14,7 @@ public class CarrinhoPage extends PageObject {
     private By corProduto = By.xpath("//p[@class='custom__text'][contains(.,'Cor:')]");
     private By removerProdutoList = By.xpath("//*[@class='remove-from-cart']");
     private By vlrTotalProduto =  By.xpath("//div[contains(@qa-auto,'cart-price')]");
-    private By subTotal = By.xpath("/html/body/div[1]/div[2]/div[3]/div[1]/ul/li[1]/div[2]/div[1]");
+    private By subTotal = By.cssSelector("li:nth-child(1)  div.summary__item-value");
     private By QtsProduto =  By.cssSelector(".product-qtd__input");
     private By continuar = By.cssSelector(".btn.btn--primary.btn--block");
     private By sacola = By.cssSelector(".cart-count-badge");
