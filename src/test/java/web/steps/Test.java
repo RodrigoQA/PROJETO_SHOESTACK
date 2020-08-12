@@ -112,11 +112,7 @@ capturaImagem("selecionoACorEDoProduto");
           assertEquals(dados.get("SubTotal"),carrinho.vlrSubTotalProdutos());
           capturaImagem("valido_as_informacoes_da_pagina_do_carrinho");
 
-
     }
-
-
-
 
     @Then("^clico no botao continuar$")
     public void clicoNoBotaoContinuar() throws Throwable {
