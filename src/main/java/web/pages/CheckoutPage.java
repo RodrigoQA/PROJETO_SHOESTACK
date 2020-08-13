@@ -5,18 +5,12 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.io.ByteArrayInputStream;
-
 import static web.core.DriverFactory.getDriver;
 import static web.core.DriverFactory.killDriver;
 
 public class CheckoutPage extends PageObject {
-    static String imagem = null;
     private static WebDriver driver;
     private WebDriverWait waitDriver;
-    static ByteArrayInputStream byteArrayInputStream = null;
-
 
     private By getDescricao = By.cssSelector(".short-description h1");
     private By getPreco = By.xpath("//*[@id='buy-box']/div[2]/div[2]/div/span/strong");

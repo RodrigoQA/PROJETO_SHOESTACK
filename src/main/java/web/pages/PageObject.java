@@ -26,8 +26,6 @@ public class PageObject implements Page {
     public PageObject() {
 
     }
-
-
     @Override
     public void tearDown() {
 
@@ -37,8 +35,6 @@ public class PageObject implements Page {
     public void navigateTo(String url) {
 
     }
-
-
 
     @Override
     public WebDriverWait getWaitDriver() {
@@ -57,7 +53,7 @@ public class PageObject implements Page {
 
             File scrFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
             try {
-                FileUtils.copyFile(scrFile, new File("allure-results/" + imagem));
+                FileUtils.copyFile(scrFile, new File("evidencies-results/" + imagem));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -66,7 +62,7 @@ public class PageObject implements Page {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            Allure.addAttachment(nomeImagem, byteArrayInputStream);
+            //   Allure.addAttachment(nomeImagem, byteArrayInputStream);
         }
 
     }
