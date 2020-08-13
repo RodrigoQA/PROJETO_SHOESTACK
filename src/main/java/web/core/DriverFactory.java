@@ -16,12 +16,12 @@ import java.util.logging.Logger;
 public class DriverFactory {
 
     private static WebDriver driver;
-    private static final String DRIVER_CHORME = "chrome";
+    private static final String DRIVER_CHROME = "chrome";
     private static final String DRIVER_IE = "ie";
     private static final String DRIVER_FIREFOX = "firefox";
     private static final String HEADLESS_CHROME = "chrome-headless";
     private static final String DRIVER_PHANTOM = "phantom";
-    private static String nomeDriver = DRIVER_CHORME;
+    private static String nomeDriver = DRIVER_CHROME;
     static Logger log = Logger.getLogger("QALogger");
 
 
@@ -37,7 +37,7 @@ public class DriverFactory {
     private static void createDriver() {
 
         switch (nomeDriver) {
-            case DRIVER_CHORME:
+            case DRIVER_CHROME:
                 try {
                     System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver\\83\\chromedriver.exe");
                     ChromeOptions chromeOptions = new ChromeOptions();
@@ -68,8 +68,6 @@ public class DriverFactory {
                     try {
                         System.setProperty("webdriver.gecko.driver", "C:\\drivers\\geckodriver\\geckodriver.exe");
 //				DesiredCapabilities capabilitiesFirefox = DesiredCapabilities.firefox();
-//				capabilitiesFirefox.setCapability("marionette", true);
-
                         driver = new FirefoxDriver();
                         driver.manage().window().maximize();
                         log.info("Gecko Driver selecionado");

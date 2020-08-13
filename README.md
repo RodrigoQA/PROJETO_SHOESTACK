@@ -47,7 +47,7 @@ Plugin's <br>
 <h2> After </h2>
 
 Devido o teste ficar gerando itens no carrinho a medida que é executado,
-foi necessario criar um hook apos a finalização dos testes, sendo assim apos a execução do
+foi necessario criar um hook após a finalização dos testes, sendo assim após a execução do
 cenario de adicionar item no carrinho a automação limpa a sacola.
 
  
