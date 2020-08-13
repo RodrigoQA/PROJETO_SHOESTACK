@@ -10,3 +10,4 @@
 .idea / vcs.xmlqq
 .idea / jsLibraryMappings.xml
 .allure-results/
+.target/

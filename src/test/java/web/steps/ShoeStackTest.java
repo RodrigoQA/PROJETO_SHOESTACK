@@ -40,8 +40,8 @@ public class ShoeStackTest {
 
     @Given("^que estou na paginal inicial do site shoestok$")
     public void queEstouNaPaginalInicialDoSiteShoestok(DataTable dataTable) throws Throwable {
-          url= (String) dataTable.asMap(String.class, String.class).get("pagina");
-          getDriver().get(url);
+        url= (String) dataTable.asMap(String.class, String.class).get("pagina");
+        getDriver().get(url);
 
     }
 
@@ -53,7 +53,7 @@ public class ShoeStackTest {
         capturaImagem("estou logado");
     }
     @Given("^nao estou logado$")
-        public void naoEstouLogado() throws Throwable {
+    public void naoEstouLogado() throws Throwable {
         assertTrue(homePage.notLogado());
         capturaImagem("nao estou logado");
     }
@@ -77,7 +77,7 @@ public class ShoeStackTest {
     @Then("^clico no produto apresentado \"([^\"]*)\"$")
     public void clicoNoProdutoApresentado(String produto) throws Throwable {
         homePage.selecionarProdutoDesejado(produto);
-      //  capturaImagem("paginaCheckout");
+        capturaImagem("paginaCheckout");
     }
 
     @Given("^seleciono a cor \"([^\"]*)\" e \"([^\"]*)\" do produto$")
@@ -87,7 +87,7 @@ public class ShoeStackTest {
         checkout.precoProduto();
         checkout.tamanhoSelecionado();
         checkout.corSelecionada();
-capturaImagem("selecionoACorEDoProduto");
+        capturaImagem("selecionoACorEDoProduto");
     }
 
     @Given("^clico no botao comprar$")
@@ -102,15 +102,15 @@ capturaImagem("selecionoACorEDoProduto");
     public void valido_as_informacoes_da_pagina_do_carrinho(DataTable dataTable) throws Throwable {
         List<Map<String, String>> dadosCarrinho = dataTable.asMaps(String.class, String.class);
         dados = dadosCarrinho.get(0);
-         //validacoes do carrinho
-          assertEquals(dados.get("nomeProduto").toUpperCase(),carrinho.obterNomeProduto().toUpperCase());
-          assertEquals(dados.get("Tamanho"),carrinho.obterTamanhoProduto());
-          assertEquals(dados.get("Quantidade"),carrinho.obterQuantidadeProduto());
-          assertEquals(dados.get("Cor"),carrinho.obterCorProduto());
-          assertEquals(dados.get("Preco"),carrinho.valorTotalCarrinho());
-          assertEquals(dados.get("Desconto"),carrinho.desconto());
-          assertEquals(dados.get("SubTotal"),carrinho.vlrSubTotalProdutos());
-          capturaImagem("valido_as_informacoes_da_pagina_do_carrinho");
+        //validacoes do carrinho
+        assertEquals(dados.get("nomeProduto").toUpperCase(),carrinho.obterNomeProduto().toUpperCase());
+        assertEquals(dados.get("Tamanho"),carrinho.obterTamanhoProduto());
+        assertEquals(dados.get("Quantidade"),carrinho.obterQuantidadeProduto());
+        assertEquals(dados.get("Cor"),carrinho.obterCorProduto());
+        assertEquals(dados.get("Preco"),carrinho.valorTotalCarrinho());
+        assertEquals(dados.get("Desconto"),carrinho.desconto());
+        assertEquals(dados.get("SubTotal"),carrinho.vlrSubTotalProdutos());
+        capturaImagem("valido_as_informacoes_da_pagina_do_carrinho");
 
     }
 
@@ -138,7 +138,7 @@ capturaImagem("selecionoACorEDoProduto");
         capturaImagem("validoAsInformacoesDaPaginaDePagamento");
         capturaImagem("limparCarrinho");
 
-   }
+    }
     @After
     public static void finalizar() {
         CarrinhoPage  carrinho= new CarrinhoPage();

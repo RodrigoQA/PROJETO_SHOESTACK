@@ -37,28 +37,27 @@ public class CarrinhoPage extends PageObject {
 
     public String obterQuantidadeProduto() {
         String quantidadeProduto = getDriver().findElement(QtsProduto).getAttribute("value");
-        System.out.println(quantidadeProduto);
+        System.out.println("Qts: "+quantidadeProduto);
         return quantidadeProduto;
     }
     public String obterNomeProduto() throws InterruptedException {
        esperarElemento();
         String desc = getDriver().findElement(nomeProduto).getText();
-        System.out.println(desc);
+        System.out.println("Descr: "+desc);
         return desc;
 
     }
     public String obterTamanhoProduto(){
         esperarElemento();
         String text = getDriver().findElement(tamanhoProduto).getText();
-       String tam = text.replace("Tamanho: ","");
-        System.out.println(tam);
+        String tam = text.replace("Tamanho: ","");
         return tam;
     }
     public String obterCorProduto(){
         visibilityOfElementLocatedWait("//p[@class='custom__text'][contains(.,'Cor:')]");
         String text = getDriver().findElement(corProduto).getText();
         String cor = text.replace("Cor: ","");
-        System.out.println(cor);
+        System.out.println("Cor: "+cor);
         return cor;
     }
     public String vlrSubTotalProdutos(){

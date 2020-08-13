@@ -44,7 +44,7 @@ public class CheckoutPage extends PageObject {
 
     public String tamanhoSelecionado() {
         String tam = getDriver().findElement(getTamanhoSelecionado).getText();
-        System.out.println(tam);
+        System.out.println("Tamanho: "+tam);
         return tam;
     }
 
